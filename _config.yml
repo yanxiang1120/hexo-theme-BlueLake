@@ -140,7 +140,7 @@ gauges_analytics:
 
 # Reward
 reward:
-  enable: false  # true/false 是否开启 打赏功能
+  enable: true  # true/false 是否开启 打赏功能
   wechat: '/css/images/wechat-pay.jpg'
   alipay: '/css/images/alipay-pay.jpg'
   buttonTxt: '打赏'
@@ -149,15 +149,14 @@ reward:
 
 # About page
 about:
-
-photo_url: https://nas.yeyanxiang.cn:18006/pic/icon.jpeg
-items:
-  - label: email
-    url: mailto:yanxiang1120@126.com
-    title: yanxiang1120@126.com
-  - label: github
-    url: https://github.com/yanxiang1120
-    title: YeYanxiang
+  photo_url: https://nas.yeyanxiang.cn:18006/pic/icon.jpeg
+  items:
+    - label: email
+      url: mailto:yanxiang1120@126.com
+      title: yanxiang1120@126.com
+    - label: github
+      url: https://github.com/yanxiang1120
+      title: YeYanxiang
 
 # Gitalk comment
 gitalk:
@@ -204,3 +203,22 @@ links:
     url: https://nas.yeyanxiang.cn:2012/
   - title: 资源下载
     url: https://nas.yeyanxiang.cn:18039/download/
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
