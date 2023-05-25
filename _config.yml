@@ -141,8 +141,8 @@ gauges_analytics:
 # Reward
 reward:
   enable: true  # true/false 是否开启 打赏功能
-  wechat: '/css/images/wechat-pay.jpg'
-  alipay: '/css/images/alipay-pay.jpg'
+  wechat: '/css/images/wechat-pay.JPG'
+  alipay: '/css/images/alipay-pay.JPG'
   buttonTxt: '打赏'
   title: "“感谢你的支持，我会继续努力！”"
   content: "扫码打赏，感谢支持"
