@@ -47,7 +47,7 @@ fancybox: true
 #Copyright
 copyright:
   enable: true #display article copyright information, true/false.
-  describe: "转载请注明出处."
+  describe: 转载请注明出处
 
 # Date_formats
 date_formats:
