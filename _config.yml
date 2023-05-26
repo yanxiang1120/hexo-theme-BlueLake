@@ -154,9 +154,9 @@ about:
     - label: email
       url: mailto:yanxiang1120@126.com
       title: yanxiang1120@126.com
-    - label: github
-      url: https://github.com/yanxiang1120
-      title: YeYanxiang
+#    - label: github
+#      url: https://github.com/yanxiang1120
+#      title: YeYanxiang
 
 # Gitalk comment
 gitalk:
