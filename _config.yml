@@ -223,8 +223,9 @@ jsonContent:
     categories: false
     tags: true
 
+sticky_posts: true
 # 主页生成选项
 index_generator:
   per_page: 10   # 分页显示文章数量
-  order_by: -date # 文章排序方式,置顶文章需要设置成 -sticky
-  sticky: true   # 开启置顶文章特性
+  order_by: -sticky # 文章排序方式,置顶文章需要设置成 -sticky
+  sticky: true
